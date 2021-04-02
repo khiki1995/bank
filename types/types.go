@@ -4,6 +4,7 @@ type PAN string
 type Money int64
 type Currency string
 type CardColor string
+type Category string
 
 const (
 	TJS Currency = "TJS"
@@ -28,8 +29,9 @@ type Card struct {
 }
 
 type Payment struct {
-	ID     int
-	Amount Money
+	ID       int
+	Amount   Money
+	Category Category
 }
 
 type PaymentSource struct {
