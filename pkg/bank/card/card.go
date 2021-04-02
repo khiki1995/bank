@@ -1,7 +1,7 @@
 package card
 
 import (
-	"github.com/khiki1995/bank/types"
+	"bank/types"
 )
 
 func IssueCard(currency types.Currency, color types.CardColor, name string) types.Card {
